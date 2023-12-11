@@ -6,3 +6,9 @@ func _on_Restart_pressed():				# if we restart, then unpause the game and the re
 
 func _on_Quit_pressed():
 	get_tree().quit()
+
+
+#func _ready():
+	#if Global.which_player != 0:
+		#$Player.text = "Player " + str(Global.which_player)
+

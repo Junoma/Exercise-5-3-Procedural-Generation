@@ -37,5 +37,19 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
+		
+
+#@rpc("any_peer","call_remote","unreliable_ordered")
+#func _set_position(p):
+	#global_position = p
+
+#@rpc("any_peer","call_remote","unreliable_ordered")
+#func _set_rotation(r):
+	#rotation.y = r
+
+#@rpc("any_peer","call_remote","unreliable_ordered")
+#func _die():
+	#queue_free()
+
 
 	move_and_slide()

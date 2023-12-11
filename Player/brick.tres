@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bjou37rrwwt0a"]
+
+[ext_resource type="Texture2D" uid="uid://camddethwj20e" path="res://Player/texture_rock_metal.png" id="1_0s8f1"]
+
+[resource]
+albedo_texture = ExtResource("1_0s8f1")
+metallic = 1.0
+roughness = 0.56
+normal_enabled = true
+ao_enabled = true
+ao_light_affect = 1.0
+heightmap_enabled = true
+heightmap_scale = 6.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 4
+heightmap_max_layers = 16
+heightmap_flip_texture = true
+texture_filter = 5
